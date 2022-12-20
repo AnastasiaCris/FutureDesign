@@ -1,0 +1,223 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.FutureDesig"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
+20    <uses-feature
+20-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-15:36
+21        android:name="android.hardware.vulkan.version"
+21-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:9-55
+22        android:required="false" />
+22-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-33
+23
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:5-67
+24-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:22-64
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:5-79
+25-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:22-76
+26    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+26-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-79
+26-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:22-76
+27
+28    <uses-feature
+28-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:5-23:36
+29        android:name="android.hardware.location.gps"
+29-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:9-53
+30        android:required="false" />
+30-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-33
+31    <uses-feature
+31-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:5-26:36
+32        android:name="android.hardware.location"
+32-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:9-49
+33        android:required="false" />
+33-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:9-33
+34    <uses-feature
+34-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:5-29:36
+35        android:name="android.hardware.touchscreen"
+35-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:9-52
+36        android:required="false" />
+36-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:9-33
+37    <uses-feature
+37-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:5-32:36
+38        android:name="android.hardware.touchscreen.multitouch"
+38-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:9-63
+39        android:required="false" />
+39-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:9-33
+40    <uses-feature
+40-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:5-35:36
+41        android:name="android.hardware.touchscreen.multitouch.distinct"
+41-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:9-72
+42        android:required="false" />
+42-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:9-33
+43
+44    <uses-permission android:name="android.permission.CAMERA" /> <!-- Read permission required to load vocab file -->
+44-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:10:5-65
+44-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:10:22-62
+45    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+45-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:13:5-80
+45-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:13:22-77
+46    <!--
+47       This tag indicates that this application requires ARCore.  This results in the application
+48       only being visible in the Google Play Store on devices that support ARCore.
+49    -->
+50    <uses-feature
+50-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:19:5-21:36
+51        android:name="android.hardware.camera.ar"
+51-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:20:9-50
+52        android:required="false" />
+52-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:21:9-33
+53
+54    <application
+54-->D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+55        android:allowBackup="true"
+55-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:24:9-35
+56        android:extractNativeLibs="true"
+56-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:18-50
+57        android:icon="@mipmap/app_icon"
+57-->D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+58        android:label="@string/app_name"
+58-->D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+59        android:supportsRtl="true" >
+59-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:26:9-35
+60        <activity
+60-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:9-58:20
+61            android:name="com.unity3d.player.UnityPlayerActivity"
+61-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-66
+62            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+62-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:13-194
+63            android:hardwareAccelerated="false"
+63-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:13-48
+64            android:launchMode="singleTask"
+64-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:13-44
+65            android:resizeableActivity="false"
+65-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:13-47
+66            android:screenOrientation="fullUser"
+66-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:13-49
+67            android:theme="@style/UnityThemeSelector" >
+67-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-54
+68            <intent-filter>
+68-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:13-50:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-69
+69-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:17-77
+71-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:27-74
+72            </intent-filter>
+73
+74            <meta-data
+74-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:13-54:40
+75                android:name="unityplayer.UnityActivity"
+75-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:17-57
+76                android:value="true" />
+76-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:17-37
+77            <meta-data
+77-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-57:40
+78                android:name="android.notch_support"
+78-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:17-53
+79                android:value="true" />
+79-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:17-37
+80        </activity>
+81
+82        <meta-data
+82-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:9-62:33
+83            android:name="unity.splash-mode"
+83-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-45
+84            android:value="0" />
+84-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:13-30
+85        <meta-data
+85-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:9-65:36
+86            android:name="unity.splash-enable"
+86-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-47
+87            android:value="True" />
+87-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:13-33
+88        <meta-data
+88-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:9-68:36
+89            android:name="unity.launch-fullscreen"
+89-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-51
+90            android:value="True" />
+90-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:13-33
+91        <meta-data
+91-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:9-71:37
+92            android:name="unity.allow-resizable-window"
+92-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:13-56
+93            android:value="False" />
+93-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:13-34
+94        <meta-data
+94-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:9-74:50
+95            android:name="notch.config"
+95-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:73:13-40
+96            android:value="portrait|landscape" />
+96-->[:unityLibrary] D:\uni\year 4\block 1-2\Future Design\Prototype\FutureDesign\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:74:13-47
+97
+98        <uses-native-library
+98-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:28:9-30:40
+99            android:name="libOpenCL-pixel.so"
+99-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:29:13-46
+100            android:required="false" />
+100-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:30:13-37
+101        <uses-native-library
+101-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:28:9-30:40
+102            android:name="libOpenCL.so"
+102-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:29:13-46
+103            android:required="false" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+103-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:30:13-37
+104        <activity
+104-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:36:9-41:46
+105            android:name="com.google.ar.core.InstallActivity"
+105-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:37:13-62
+106            android:configChanges="keyboardHidden|orientation|screenSize"
+106-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:38:13-74
+107            android:excludeFromRecents="true"
+107-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:39:13-46
+108            android:exported="false"
+108-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:40:13-37
+109            android:launchMode="singleTop"
+109-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:41:13-43
+110            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+110-->[:arcore:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\b2b245ae2ddc5d30ed0626d4dd7be5c0\arcore\AndroidManifest.xml:42:13-77
+111        <!--
+112         This tag indicates that this application requires ARCore.  This results in the Google Play
+113         Store downloading and installing ARCore along with the application.
+114        -->
+115        <meta-data
+115-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:47:9-49:40
+116            android:name="com.google.ar.core"
+116-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:48:13-46
+117            android:value="optional" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+117-->[:nar-dependencies:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\3d1b13a857e40c43266a99844bd8d18d\nar-dependencies\AndroidManifest.xml:49:13-37
+118        <meta-data
+118-->[:arcore:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\b2b245ae2ddc5d30ed0626d4dd7be5c0\arcore\AndroidManifest.xml:32:9-34:41
+119            android:name="com.google.ar.core.min_apk_version"
+119-->[:arcore:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\b2b245ae2ddc5d30ed0626d4dd7be5c0\arcore\AndroidManifest.xml:33:13-62
+120            android:value="202940000" />
+120-->[:arcore:] C:\Users\fukin\.gradle\caches\transforms-2\files-2.1\b2b245ae2ddc5d30ed0626d4dd7be5c0\arcore\AndroidManifest.xml:34:13-38
+121    </application>
+122
+123</manifest>
